@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, Helvetica, san-serif;
+  color: white;
+  background-image: url(images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  background: black;
+  padding: 5px;
+  font-size: 150%;
+  font-weight: bold;
+
+}
+
+#login {
+  font-size: 10px;
+  color: white;
+  font-weight: normal;
+  text-align: right;
+}
+
+nav {
+  float: left;
+  width: 100%;
+  background: #A44200;
+  padding: 5px;
+  align-content: justify;
+  font-size: 100%;
+  color: white;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.right {
+  right: 0;
+  color: white;
+  padding-left: 24px;
+  background: rgba(0, 0, 0, 0.50);
+  opacity: 1.0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#title {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 200%;
+	font: inherit;
+  background-color: black;
+  padding-left: 0px;
+	vertical-align: middle;
+}
+
+.paragraph {
+  white-space: normal;
+  margin: 1em 0;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+figure {
+  margin: 0;
+	padding: 0;
+	border: 2px solid orange;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+#wrapper {
+  min-height: 100%;
+  height: auto;
+}
+
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 50px; /* the footer's total height */
+}
+
+#footer {
+  height: 50px; /* the footer's total height */
+}
+
+#footer-content {
+  height: 32px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
+  padding: 18px;
+}

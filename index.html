@@ -1,50 +1,66 @@
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-    <title>5280 Landmarks</title>
-    <link rel="stylesheet" href="stylesheets/reset.css" title="text/css" />
-    <link rel="stylesheet" href="stylesheets/main.css" title="text/css" />
-    <style>
-      body {
-        background-image: url(images/1.jpg);
-      }
+  <title>5280 Landmarks</title>
+  <link rel="stylesheet" href="stylesheets/reset.css" title="text/css" />
+  <link rel="stylesheet" href="stylesheets/main.css" title="text/css" />
+  <style>
+  body {
+    background-image: url(images/1.jpg);
+    color: black;
+  }
 </style>
-  </head>
-  <body>
+</head>
+
+<body>
+  <div class = "split right">
     <header>
-      <h1>5280 Landmarks</h1>
-      <a href="login-local-url" target="_blank">Login</a>
+      <h1 id="title">5280 Landmarks</h1>
+      <a id="login" href="login-local-url" target="_blank">Login</a>
     </header>
     <nav>
       <a href="buildings-local-url" target="_blank">Buildings</a>
       <a href="art-local-url" target="_blank">Art</a>
       <a href="featured-local-url" target="_blank">Featured</a>
-    </nav>
+    </nav><br><br><br><br>
     <main>
-    <h2>Denver Art Museum</h2>
-    <br><br>
-    <pre>Lorem ipsum dolor sit amet, quis idque munere est ex. Eos id soluta meliore menandri, sed ex graeci prompta sapientem. Cum in verterem partiendo, quod partiendo principes vix et. Ne eam virtute abhorreant. At qui doming nemore mediocritatem, ei pri bonorum blandit, vim elitr recusabo salutatus eu.
+      <h2>Denver Art Museum</h2>
+      <br>
+      <p class="paragraph">Lorem ipsum dolor sit amet, quis idque munere est ex. Eos id soluta meliore menandri, sed ex graeci prompta sapientem. Cum in verterem partiendo, quod partiendo principes vix et. Ne eam virtute abhorreant. At qui doming nemore mediocritatem, ei pri bonorum blandit, vim elitr recusabo salutatus eu.<br><br>
 
-Mea adhuc persecuti in, dolorum mentitum ullamcorper his ut. Graeci scriptorem cum ea, an ignota signiferumque nec. No dicunt sanctus moderatius sed, meliore inermis ei mea. Utinam impedit maiestatis sea ad, quis efficiendi eu mel, ea solet placerat phaedrum vis. Et vix causae aliquam, commodo blandit imperdiet ex his.
+Mea adhuc persecuti in, dolorum mentitum ullamcorper his ut. Graeci scriptorem cum ea, an ignota signiferumque nec. No dicunt sanctus moderatius sed, meliore inermis ei mea. Utinam impedit maiestatis sea ad, quis efficiendi eu mel, ea solet placerat phaedrum vis. Et vix causae aliquam, commodo blandit imperdiet ex his.<br><br>
 
-Duo an eleifend omittantur, te sint civibus recusabo eos. An ius corpora definiebas cotidieque. Eu pri reque sapientem contentiones, fierent conclusionemque mei in. Saepe veniam ne mei, ut facilisi omittantur nec.
+Duo an eleifend omittantur, te sint civibus recusabo eos. An ius corpora definiebas cotidieque. Eu pri reque sapientem contentiones, fierent conclusionemque mei in. Saepe veniam ne mei, ut facilisi omittantur nec.<br><br>
 
-Nam ad quas consul salutandi, sea ad verterem quaestio. Mei ea quot dictas. Eam choro eloquentiam eu, vim cu facete scriptorem. Mel at latine veritus.</pre><br>
+Nam ad quas consul salutandi, sea ad verterem quaestio. Mei ea quot dictas. Eam choro eloquentiam eu, vim cu facete scriptorem. Mel at latine veritus.</p><br>
 
-  <figure>
-    <figcaption>Larimer Square</figcaption>
-    <img src="images/2.jpg" alt="Larimer Square" style="width:500px;height:400px;">
-  </figure>
-  <figure>
-    <figcaption>Millenium Bridge</figcaption>
-    <img src="images/5.jpg" alt="Millenium Bridge" style="width:500px;height:400px;">
-  </figure>
-  <figure>
-    <figcaption>Molly Brown House</figcaption>
-    <img src="images/6.jpg" alt="Molly Brown House" style="width:500px;height:400px;">
-  </figure>
-  </main>
-  <footer>Alia utinam maiorum pro te, eum ex sonet putent discere. Mea cu possit forensibus comprehensam. Mel te primis commodo, nibh labore nostrum ei mel. Ex vix adolescens suscipiantur, malorum iuvaret usu id. At mea lobortis pertinacia, scripta sententiae et mei, sumo partem pro ex. Nam movet facete ex, eos rebum nulla qualisque ea, vis malis clita efficiantur ut. At vel lorem paulo soluta, ancillae quaestio no quo, id vim blandit voluptatum.</footer>
+        <div class="row">
+          <div class="column">
+            <figcaption>Larimer Square</figcaption>
+            <figure>
+              <img src="images/2.jpg" alt="Larimer Square" style="width:100%">
+            </figure>
+          </div>
+          <div class="column">
+            <figcaption>Millenium Bridge</figcaption>
+            <figure>
+              <img src="images/5.jpg" alt="Millenium Bridge" style="width:100%">
+            </figure>
+          </div>
+          <div class="column">
+            <figcaption>Molly Brown House</figcaption>
+            <figure>
+              <img src="images/6.jpg" alt="Molly Brown House" style="width:100%">
+            </figure>
+          </div>
+        </div>
+      </main>
+
+      <div id="wrapper">
+      </div>
+      <footer id="footer">
+        <div id="footer-content">Alia utinam maiorum pro te, eum ex sonet putent discere. Mea cu possit forensibus comprehensam. Mel te primis commodo, nibh labore nostrum ei mel. Ex vix adolescens suscipiantur, malorum iuvaret usu id. At mea lobortis pertinacia, scripta sententiae et mei, sumo partem pro ex. Nam movet facete ex, eos rebum nulla qualisque ea, vis malis clita efficiantur ut. At vel lorem paulo soluta, ancillae quaestio no quo, id vim blandit voluptatum.</div>
+      </footer>
   </body>
-</html>
+  </html>
