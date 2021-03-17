@@ -6,31 +6,39 @@ body {
   background-repeat: no-repeat;
 }
 
-header {
-  background: black;
-  padding: 5px;
-  font-size: 150%;
-  font-weight: bold;
-
+.page_header {
+  background: #202020;
+  padding: 10px;
+  font-size: 110%;
+  font-weight: normal;
+  text-indent: 8;
 }
 
-#login {
+.login {
   font-size: 10px;
+  font-style: normal;
   color: white;
   font-weight: normal;
   text-align: right;
+  float: right;
 }
 
 nav {
-  float: left;
   width: 100%;
   background: #A44200;
-  padding: 5px;
-  align-content: justify;
-  font-size: 100%;
-  color: white;
+  padding: 0px;
+  float: left;
 }
 
+a {
+  float: left;
+  padding: 12px;
+  color: white;
+  font-size: 8pt;
+  text-decoration: none;
+  text-indent: 80;
+  width: 33.33%;
+}
 
 .split {
   height: 100%;
@@ -45,9 +53,15 @@ nav {
 .right {
   right: 0;
   color: white;
-  padding-left: 24px;
+  padding-left: 0px;
   background: rgba(0, 0, 0, 0.50);
   opacity: 1.0;
+}
+
+.paragraph_title {
+  font-size: 10pt;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 * {
@@ -67,48 +81,48 @@ nav {
   display: table;
 }
 
-#title {
+.paragraph_title {
   margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 200%;
 	font: inherit;
-  background-color: black;
-  padding-left: 0px;
-	vertical-align: middle;
+  font-weight: bold;
+  padding-left: 20px;
+	vertical-align: top;
 }
 
 .paragraph {
   white-space: normal;
+  font-size: 8pt;
+  padding: 20px;
   margin: 1em 0;
   word-break: break-all;
   word-wrap: break-word;
 }
 
-figure {
+figcaption {
+  font-size: 8pt;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+img {
   margin: 0;
 	padding: 0;
+  width: 220px;
+  height: 180px;
+  background-position: center center;
+  background-repeat: no-repeat;
 	border: 2px solid orange;
-	font-size: 100%;
-	vertical-align: baseline;
+	font-size: 80%;
 }
 
-#wrapper {
-  min-height: 100%;
-  height: auto;
-}
-
-#wrapper:after {
-  content: "";
-  display: block;
-  height: 50px; /* the footer's total height */
-}
-
-#footer {
-  height: 50px; /* the footer's total height */
-}
-
-#footer-content {
-  height: 32px; /* height + top/bottom paddding + top/bottom border must add up to footer height */
-  padding: 18px;
+footer {
+  width: 100%;
+  padding-top: 140px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 8pt;
 }
